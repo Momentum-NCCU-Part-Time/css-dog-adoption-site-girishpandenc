@@ -48,10 +48,9 @@ h2 {
   padding: 1em;
   font-family: "Oswald", Open Sans;
 }
-}
 .phome {
   padding: 20px;50px;
-  width: 725px;
+  width: 800px;
   font-family : "Open Sans";
   }
   p {
@@ -60,18 +59,30 @@ h2 {
   }
 .trait {
   background: #89deef;
-  display: inline-block;
   list-style: none;
-  width: auto;
+  display: inline-block;
   margin: 10px;
   padding: 5px;
   border-radius: 30px;
-  font-size: 20px
-  font-family: "Oswald", Open Sans;
+  font-size: 20px;
+  font-family: Open Sans;
   }
-.dogs {
+.traits {
   display: inline-block;
-    }
+  width: 500px;
+   }
+.dogs {
+  display: flex;
+  flex-wrap: wrap;
+   }
+.dog {
+  display: inline-block;
+  margin: 10px;
+  border-style: solid;
+  }
+.img {
+  width: 100%;
+}
 .pcontact {
   padding: 60;
   font-family: "Open Sans";
@@ -97,4 +108,8 @@ h2 {
 .dog-name {
   font-size: 20px;
   font-family: "Oswald", Open Sans;
+  padding: 10px;
+}
+.dog-photo {
+  width: 100%;
 }
