@@ -113,3 +113,54 @@ h2 {
 .dog-photo {
   width: 100%;
 }
+footer
+   {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: center;
+       text-align: center;
+       padding-top: 50px;
+       font-family: "Oswald";
+       font-size: 100px;
+       background-color: #A6A9F0;
+    }
+    
+.donate
+    {
+        display: flex;
+        flex: auto;
+        background-image: url(/images/donate.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+.volunteer
+    {
+        display: flex;
+        flex: auto;
+        background-image: url(/images/volunteer.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+.location
+    {
+        display: flex;
+        flex: auto;
+        background-image: url(/images/location.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+.footer-link
+    {
+        justify-content: center;
+        line-height: 400px;
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+    }
